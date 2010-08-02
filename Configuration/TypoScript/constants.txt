@@ -1,0 +1,11 @@
+//
+// These are the default TS-constants for sponsoring404
+//
+
+plugin.tx_sponsoring404 { 
+	# cat=plugin_sponsoring404_basic//1; # cat=sponsoring404/charity; type=options[Random, Amnesty International, Nederlandse Hartstichting, Wereld Natuur Fonds]; label= LLL:EXT:sponsoring404/Resources/Private/Language/locallang.xml:charity
+	charity = Random
+
+	# cat=plugin_sponsoring404_basic//2; # cat=sponsoring404/templateRootPath; type=string; label= LLL:EXT:sponsoring404/Resources/Private/Language/locallang.xml:templateRootPath
+	templateRootPath = EXT:sponsoring404/Resources/Private/Templates/
+}

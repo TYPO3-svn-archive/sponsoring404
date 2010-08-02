@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'sponsoring404'</description>
+		<fileId>EXT:sponsoring404/Resources/Language/locallang.xml</fileId>
+		<ext_filename_template>EXT:sponsoring404/Resources/Language/###LANGKEY###.locallang.xml</ext_filename_template>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="charity">Choose a charity</label>
+			<label index="templateRootPath">Path to template file root</label>
+		</languageKey>
+	</data>
+</T3locallang>

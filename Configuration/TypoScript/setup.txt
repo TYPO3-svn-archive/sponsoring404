@@ -1,0 +1,35 @@
+includeLibs.tx_Sponsoring404_Controller_404Controller = EXT:sponsoring404/Classes/Controller/404Controller.php
+
+plugin.tx_sponsoring404 = USER_INT
+plugin.tx_sponsoring404 {
+	userFunc = tx_Sponsoring404_Controller_404Controller->main
+	view {
+		templateRootPath = {$plugin.tx_sponsoring404.templateRootPath}
+		charity = {$plugin.tx_sponsoring404.charity}
+		charities {
+			wnf {
+				name = Wereld Natuur Fonds
+				directory = wnf
+			}
+			hartstichting {
+				name = Nederlandse Hartstichting
+				directory = hartstichting
+			}
+			amnesty {
+				name = Amnesty International
+				directory = amnesty
+			}
+		}
+	}
+}
+
+sponsoring404 = PAGE
+sponsoring404 {
+	typeNum = 1280570199
+	config {
+		disableAllHeaderCode = 1
+		xhtml_cleaning = 0
+		admPanel = 0
+	}
+	10 < plugin.tx_sponsoring404
+}
