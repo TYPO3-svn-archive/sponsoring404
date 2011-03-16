@@ -1,5 +1,0 @@
-Settings for 404 page
-DO NOT REMOVE! This file is used by the plugin
-----------------------------------------------
-name: Hartstichting
-filename: index.php

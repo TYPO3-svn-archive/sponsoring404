@@ -7,17 +7,21 @@ plugin.tx_sponsoring404 {
 		templateRootPath = {$plugin.tx_sponsoring404.templateRootPath}
 		charity = {$plugin.tx_sponsoring404.charity}
 		charities {
-			wnf {
-				name = Wereld Natuur Fonds
-				directory = wnf
+			bartfoundation1 {
+				name = Bart Foundation 1
+				directory = bartfoundation
 			}
-			hartstichting {
-				name = Nederlandse Hartstichting
-				directory = hartstichting
+			bartfoundation2 {
+				name = Bart Foundation 2
+				directory = bartfoundation2
 			}
-			amnesty {
-				name = Amnesty International
-				directory = amnesty
+			nierstichting {
+				name = Nier Stichting
+				directory = nierstichting
+			}
+			ikkominactie {
+				name = Ik kom in actie
+				directory = ikkominactie
 			}
 		}
 	}

@@ -87,8 +87,8 @@ class tx_Sponsoring404_Controller_404Controller {
 		$relativePath = $this->getDirectoryName($this->settings['templateRootPath']) . $directory;
 		$aboslutePath = PATH_site . $relativePath;
 
-		if (@is_file($aboslutePath . '/index.htm')) {
-			$file = file($aboslutePath . '/index.htm');
+		if (@is_file($aboslutePath . '/index.html')) {
+			$file = file($aboslutePath . '/index.html');
 			$prefix = str_replace(t3lib_div::getIndpEnv('TYPO3_DOCUMENT_ROOT'), '', PATH_site);
 			$content = join('', str_replace('###DIR404PAGES###', $prefix . $relativePath, $file));
 		} else {
