@@ -15,13 +15,26 @@ plugin.tx_sponsoring404 {
 				name = Bart Foundation 2
 				directory = bartfoundation2
 			}
+			books4life {
+				name = Books 4 Life
+				directory = books4life
+			}
 			nierstichting {
 				name = Nier Stichting
 				directory = nierstichting
 			}
-			ikkominactie {
-				name = Ik kom in actie
-				directory = ikkominactie
+			ikkominactie1 {
+				name = Ik kom in actie 1
+				directory = ikkominactie1
+			}
+			ikkominactie2 {
+				name = Ik kom in actie 2
+				directory = ikkominactie2
+			}
+			villatikka {
+				# Stichting Niños de Waita Ticca / Villa Ticca
+				name = Stichting Niños de Waita Ticca / Villa Ticca
+				directory = villaticca
 			}
 		}
 	}
