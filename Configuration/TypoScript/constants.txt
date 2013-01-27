@@ -3,7 +3,7 @@
 //
 
 plugin.tx_sponsoring404 { 
-	# cat=plugin_sponsoring404_basic//1; # cat=sponsoring404/charity; type=options[Random,Bart Foundation 1,Bart Foundation 2,Books 4 Life,Nier Stichting,Ik kom in actie 1,Ik kom in actie 2,Stichting Niños de Waita Ticca / Villa Ticca]; label= LLL:EXT:sponsoring404/Resources/Private/Language/locallang.xml:charity
+	# cat=plugin_sponsoring404_basic//1; # cat=sponsoring404/charity; type=options[Random,Bart Foundation 1,Bart Foundation 2,Books 4 Life,Nier Stichting,Ik kom in actie 1,Ik kom in actie 2,IMC Weekendschool 1,Stichting Niños de Waita Ticca / Villa Ticca 1,Stichting Niños de Waita Ticca / Villa Ticca 2]; label= LLL:EXT:sponsoring404/Resources/Private/Language/locallang.xml:charity
 	charity = Random
 
 	# cat=plugin_sponsoring404_basic//2; # cat=sponsoring404/templateRootPath; type=string; label= LLL:EXT:sponsoring404/Resources/Private/Language/locallang.xml:templateRootPath

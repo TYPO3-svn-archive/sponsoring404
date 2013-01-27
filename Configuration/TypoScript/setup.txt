@@ -31,10 +31,19 @@ plugin.tx_sponsoring404 {
 				name = Ik kom in actie 2
 				directory = ikkominactie2
 			}
-			villatikka {
+			imcweekendschool1 {
+				name = IMC Weekendschool 1
+				directory = imcweekendschool1
+			}
+			villatikka1 {
 				# Stichting Niños de Waita Ticca / Villa Ticca
-				name = Stichting Niños de Waita Ticca / Villa Ticca
-				directory = villaticca
+				name = Stichting Niños de Waita Ticca / Villa Ticca 1
+				directory = villaticca1
+			}
+			villatikka2 {
+				# Stichting Niños de Waita Ticca / Villa Ticca
+				name = Stichting Niños de Waita Ticca / Villa Ticca 2
+				directory = villaticca2
 			}
 		}
 	}
